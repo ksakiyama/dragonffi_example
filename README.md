@@ -4,7 +4,7 @@
 I coded some python examples using DragonFFI.
 
 ## Motivation
-LLVM Project annouced about DragonFFI on [this post](http://blog.llvm.org/2018/03/dragonffi-ffijit-for-c-language-using.html). So I tried!
+LLVM Project announced about DragonFFI on [this post](http://blog.llvm.org/2018/03/dragonffi-ffijit-for-c-language-using.html). So I tried!
 
 ## My Setting
 * Runtime
@@ -25,4 +25,12 @@ $ python call_fib_from_c_nrm.py
 Time:0.049577951431274414[sec]
 $ python call_fib_from_c_opt.py 
 Time:0.04542684555053711[sec]
+```
+
+### Matmul
+```
+$ python matmul.py
+Python:7.10671[sec]
+C(FFI):0.03292[sec]
+numpy :0.02811[sec]
 ```
