@@ -3,7 +3,7 @@ start = time.time()
 
 N = 30
 
-memo = [0] * 100
+memo = [0] * 1000
 
 def f(n):
     if n == 0:
